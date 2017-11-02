@@ -1,0 +1,30 @@
+{
+  "type": "panel",
+  "name": "Bar Chart",
+  "id": "bar-chart-panel",
+
+  "info": {
+    "description": "bar chart panel for grafana",
+    "author": {
+      "name": "StorageDevOps",
+      "url": "https://storagedevops.blogspot.com/"
+    },
+    "keywords": ["panel", "bar", "chart"],
+    "logos": {
+      "small": "src/img/chart.png",
+      "large": "src/img/chart.png"
+    },
+    "links": [
+      {"name": "Project site", "url": "https://github.com/storagedevops/barchart_panel.git"},
+      {"name": "Blog Post", "url": "https://storagedevops.blogspot.com/"},
+      {"name": "MIT License", "url": "https://github.com/storagedevops/barchart_panel/blob/master/LICENSE"}
+    ],
+    "version": "0.0.1",
+    "updated": "2017-11-02"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "4.6",
+    "plugins": [ ]
+  }
+}
